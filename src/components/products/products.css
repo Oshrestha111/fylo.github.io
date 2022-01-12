@@ -1,0 +1,36 @@
+section {
+	/* height: 567px; */
+	background-color: hsl(218, 28%, 13%);
+	padding: 50px;
+}
+.container {
+	margin: 50px;
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 4rem;
+	padding-top: 1rem;
+}
+.card {
+	display: block;
+	justify-content: center;
+	text-align: center;
+	line-height: 1rem;
+}
+.card img {
+	width: 50px;
+}
+#icon2 {
+	width: 35px;
+}
+.card h4 {
+	margin-top: 2rem;
+	font-weight: 700;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+.card span {
+	margin-top: 0.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: rgb(165, 176, 197);
+}

@@ -1,3 +1,38 @@
 .footer {
-	background-color: hsl(176, 68%, 64%);
+	padding: 50px;
+	background-color: #0c1524;
+	color: #a6b0c0;
+}
+.footer-desc {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-desc .desc-about {
+	width: 400px;
+}
+.desc-about span {
+	padding-right: 10px;
+}
+.desc-call ul {
+	margin: 0 20px;
+	list-style: none;
+	line-height: 1.5rem;
+}
+.desc-aboutUs a,
+.desc-contactUs a {
+	display: flex;
+	justify-content: center;
+	margin: 0 20px;
+	line-height: 1.5rem;
+	text-decoration: none;
+	color: #a6b0c0;
+}
+a :hover {
+	text-decoration: underline;
+}
+.desc-socials a {
+	color: #a6b0c0;
+	padding: 10px;
 }

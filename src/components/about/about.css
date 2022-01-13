@@ -5,14 +5,17 @@
 .container-about {
 	display: flex;
 	padding-top: 40px;
+	overflow: hidden;
 }
 .left {
 	flex: 1;
 	padding-left: 60px;
+	overflow: hidden;
 }
 .right {
 	flex: 1;
 	padding-left: 70px;
+	overflow: hidden;
 }
 .wrapper {
 	display: block;

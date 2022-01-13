@@ -24,16 +24,15 @@ function Products() {
 					<div className='card'>
 						<img src={icon2} alt='windows' id='icon2' />
 						<h4>Access your files, anywhere</h4>
-						<span>
-							<p>
-								2-factor authentication and user-controlled encryption are just
-								a couple of the security features we allow to help secure your
-								files.
-							</p>
-						</span>
+
+						<p>
+							2-factor authentication and user-controlled encryption are just a
+							couple of the security features we allow to help secure your
+							files.
+						</p>
 					</div>
 					<div className='card'>
-						<img src={icon3} alt='windows' />
+						<img src={icon3} alt='windows' id='icon3' />
 						<h4>Access your files, anywhere</h4>
 						<span>
 							<p>
@@ -44,7 +43,7 @@ function Products() {
 						</span>
 					</div>
 					<div className='card'>
-						<img src={icon4} alt='windows' />
+						<img src={icon4} alt='windows' id='icon4' />
 						<h4>Access your files, anywhere</h4>
 						<span>
 							<p>

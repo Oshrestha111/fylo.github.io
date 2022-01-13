@@ -1,0 +1,49 @@
+section {
+	background-color: #181e2a;
+}
+.container-about {
+	display: flex;
+	padding-top: 40px;
+}
+.left {
+	flex: 1;
+	padding-left: 60px;
+}
+.right {
+	flex: 1;
+	padding-left: 70px;
+}
+.wrapper {
+	display: block;
+	padding-top: 120px;
+}
+.wrapper h2 {
+	max-width: 275px;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+}
+
+.wrapper p {
+	font-size: 16px;
+	margin: 0;
+	margin-top: 0.5rem;
+	padding-top: 10px;
+	max-width: 440px;
+	color: hsl(220, 22%, 71%);
+}
+.wrapper a {
+	display: inline-flex;
+	text-decoration: none;
+	font-size: 14px;
+	color: hsl(176, 68%, 64%);
+	font-weight: 500;
+	border-bottom: 2px solid hsl(176, 68%, 64%);
+	gap: 0.5rem;
+	align-items: center;
+	display: inline-flex;
+	margin-top: 1.5rem;
+}
+.wrapper img {
+	width: 1.25rem;
+	height: 1.25rem;
+}

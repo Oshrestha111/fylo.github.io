@@ -5,7 +5,7 @@ import img1 from "../../images/illustration-intro.png";
 function Header() {
 	return (
 		<div>
-			<section>
+			<section className='header'>
 				<header>
 					<span className='logo'>
 						<img src={logo} alt='fylo'></img>

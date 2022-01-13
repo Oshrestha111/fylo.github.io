@@ -1,4 +1,4 @@
-section {
+.product {
 	/* height: 567px; */
 	background-color: hsl(218, 28%, 13%);
 	padding: 50px;
@@ -33,6 +33,7 @@ section {
 	font-weight: 700;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
+	color: #fff;
 }
 .card p {
 	margin-top: 0.5rem;

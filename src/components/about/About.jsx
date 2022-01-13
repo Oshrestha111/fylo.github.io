@@ -6,7 +6,7 @@ import arrow from "../../images/icons/icon-arrow.svg";
 function About() {
 	return (
 		<div>
-			<section>
+			<section className='about'>
 				<div className='container-about'>
 					<div className='left'>
 						<img src={picture} alt='illustration-stay-productive'></img>

@@ -1,5 +1,6 @@
-section {
+.container-about {
 	background-color: #181e2a;
+	height: 100vh;
 }
 .container-about {
 	display: flex;

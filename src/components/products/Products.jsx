@@ -9,7 +9,7 @@ function Products() {
 	// const iconStyles = { width: "7%" };
 	return (
 		<div>
-			<section>
+			<section className='product'>
 				<div className='container'>
 					<div className='card'>
 						<img src={icon1} alt='windows' />

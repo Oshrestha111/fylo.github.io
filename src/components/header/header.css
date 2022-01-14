@@ -1,16 +1,20 @@
-.header {
+header {
+	background-color: hsl(217, 28%, 15%);
 	height: 100vh;
 	margin: 0;
 	overflow: hidden;
-	background-color: hsl(217, 28%, 15%);
 	color: #fff;
 }
-header {
+
+.header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1.25rem 1rem 1.25rem 1rem;
+	padding: 50px 90px;
+	max-width: 1600px;
+	margin: 0 auto;
 }
+
 .logo {
 	max-width: 100%;
 	max-height: 1.5rem;

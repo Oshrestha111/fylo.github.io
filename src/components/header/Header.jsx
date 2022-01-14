@@ -5,8 +5,8 @@ import img1 from "../../images/illustration-intro.png";
 function Header() {
 	return (
 		<div>
-			<section className='header'>
-				<header>
+			<header>
+				<section className='header'>
 					<span className='logo'>
 						<img src={logo} alt='fylo'></img>
 					</span>
@@ -23,11 +23,11 @@ function Header() {
 							</li>
 						</ul>
 					</nav>
-				</header>
+				</section>
 				<div className='image'>
 					<img src={img1} alt='fylo'></img>
 				</div>
-			</section>
+			</header>
 		</div>
 	);
 }

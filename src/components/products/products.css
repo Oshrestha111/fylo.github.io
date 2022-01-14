@@ -1,7 +1,12 @@
+.product-container {
+	background-color: hsl(218, 28%, 13%);
+}
 .product {
 	/* height: 567px; */
 	background-color: hsl(218, 28%, 13%);
 	padding: 50px;
+	max-width: 1600px;
+	margin: 0 auto;
 }
 .container {
 	margin: 50px;

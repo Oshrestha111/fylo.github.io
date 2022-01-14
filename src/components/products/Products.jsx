@@ -8,7 +8,7 @@ import icon4 from "../../images/icons/icon-any-file.svg";
 function Products() {
 	// const iconStyles = { width: "7%" };
 	return (
-		<div>
+		<div className='product-container'>
 			<section className='product'>
 				<div className='container'>
 					<div className='card'>

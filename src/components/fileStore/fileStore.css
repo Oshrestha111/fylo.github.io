@@ -1,9 +1,20 @@
-.fileStore {
-	height: 50vh;
-	overflow: hidden;
-	/* background-color: aquamarine; */
+.fileStore-container {
 	background-color: RGB(28, 36, 49);
+	/* background-image: url(E:\LearnReact\FYLO\fylo\src\images\bg-curvy-desktop.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	background-position: bottom; */
+
+	/* padding-top: 150px; */
+}
+.fileStore {
+	/* overflow: hidden; */
+	/* background-color: aquamarine; */
+
 	color: #fff;
+	max-width: 1600px;
+	margin: 0 auto;
 }
 
 .desc {
@@ -52,7 +63,7 @@
 .curve img {
 	position: absolute;
 	width: 100%;
-	bottom: -80px;
+	bottom: 0;
 	left: 0;
 	z-index: 10;
 }

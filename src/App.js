@@ -6,10 +6,9 @@ import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 
 function App() {
-	const hBgCo = { backgroundColor: "hsl(217, 28%, 15%)" };
 	return (
 		<div className='App'>
-			<Header style={hBgCo} />
+			<Header />
 			<FileStore />
 			<Products />
 			<About />

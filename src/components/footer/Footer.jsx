@@ -7,7 +7,7 @@ import { AiFillTwitterCircle, AiOutlineInstagram } from "react-icons/ai";
 
 function Footer() {
 	return (
-		<div>
+		<div className='footer-section'>
 			<section className='footer'>
 				<div className='footer-container'>
 					<div className='logo-footer'>

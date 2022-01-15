@@ -24,6 +24,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 400px;
+	max-width: 900px;
 	height: auto;
 	max-width: 875px;
 	padding: 30px;
@@ -62,6 +63,7 @@
 	top: 340px;
 	left: 300px;
 	margin: 0;
+	max-width: 900px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

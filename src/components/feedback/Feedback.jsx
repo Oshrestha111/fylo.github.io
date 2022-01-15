@@ -79,7 +79,7 @@ function Feedback() {
 							</p>
 						</div>
 						<div className='des-access-input'>
-							<input type='email' placeholder='email@exzamole.com' />
+							<input type='email' placeholder='email@example.com' id='email' />
 							<button>Get Started For Free</button>
 						</div>
 					</div>

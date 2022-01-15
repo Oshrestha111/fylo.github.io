@@ -4,6 +4,7 @@ import FileStore from "./components/fileStore/FileStore";
 import Products from "./components/products/Products";
 import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
+import Feedback from "./components/feedback/Feedback";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<FileStore />
 			<Products />
 			<About />
+			<Feedback />
 			<Footer />
 		</div>
 	);

@@ -8,64 +8,82 @@ import client3 from "../../images/profile/profile-3.jpg";
 function Feedback() {
 	return (
 		<div>
-			<section className='section-feedback'>
-				<img src={comma} alt='comma' />
-				<div className='wrapper-feedback'>
-					<div className='feedback-card'>
-						<div className='feedback-text'>
-							<p>
-								Fylo has improved our team productivity by an order of
-								magnitude. Since making the switch our team has become a
-								well-oiled collaboration machine.
-							</p>
-						</div>
-						<div className='feedback-info'>
-							<div className='feebback-img'>
-								<img src={client1} alt='profile' />
+			<section className='feedback'>
+				<section className='section-feedback'>
+					<img src={comma} alt='comma' />
+					<div className='wrapper-feedback'>
+						<div className='feedback-card'>
+							<div className='feedback-text'>
+								<p>
+									Fylo has improved our team productivity by an order of
+									magnitude. Since making the switch our team has become a
+									well-oiled collaboration machine.
+								</p>
 							</div>
-							<div className='feedback-profileInfo'>
-								<h4>Satish Poudel</h4>
-								<span> Founder & CEO, Muddle </span>
+							<div className='feedback-info'>
+								<div className='feebback-img'>
+									<img src={client1} alt='profile' />
+								</div>
+								<div className='feedback-profileInfo'>
+									<h4>Satish Poudel</h4>
+									<span> Founder & CEO, Muddle </span>
+								</div>
+							</div>
+						</div>
+						<div className='feedback-card'>
+							<div className='feedback-text'>
+								<p>
+									Fylo has improved our team productivity by an order of
+									magnitude. Since making the switch our team has become a
+									well-oiled collaboration machine.
+								</p>
+							</div>
+							<div className='feedback-info'>
+								<div className='feebback-img'>
+									<img src={client2} alt='profile' />
+								</div>
+								<div className='feedback-profileInfo'>
+									<h4>Bruce Mckenzie. </h4>
+									<span> Founder & CEO, Muddle </span>
+								</div>
+							</div>
+						</div>
+						<div className='feedback-card'>
+							<div className='feedback-text'>
+								<p>
+									Fylo has improved our team productivity by an order of
+									magnitude. Since making the switch our team has become a
+									well-oiled collaboration machine.
+								</p>
+							</div>
+							<div className='feedback-info'>
+								<div className='feebback-img'>
+									<img src={client3} alt='profile' />
+								</div>
+								<div className='feedback-profileInfo'>
+									<h4>Iva Boyd </h4>
+									<span> Founder & CEO, Muddle </span>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div className='feedback-card'>
-						<div className='feedback-text'>
+				</section>
+				<section className='access'>
+					<div className='container-access'>
+						<div className='desc-access'>
+							<h2>Get early access today</h2>
 							<p>
-								Fylo has improved our team productivity by an order of
-								magnitude. Since making the switch our team has become a
-								well-oiled collaboration machine.
+								It only takes a minute to sign up and our free starter tier is
+								extremely generous. If you have any questions, our support team
+								would be happy to help you.
 							</p>
 						</div>
-						<div className='feedback-info'>
-							<div className='feebback-img'>
-								<img src={client2} alt='profile' />
-							</div>
-							<div className='feedback-profileInfo'>
-								<h4>Bruce Mckenzie. </h4>
-								<span> Founder & CEO, Muddle </span>
-							</div>
+						<div className='des-access-input'>
+							<input type='email' placeholder='email@exzamole.com' />
+							<button>Get Started For Free</button>
 						</div>
 					</div>
-					<div className='feedback-card'>
-						<div className='feedback-text'>
-							<p>
-								Fylo has improved our team productivity by an order of
-								magnitude. Since making the switch our team has become a
-								well-oiled collaboration machine.
-							</p>
-						</div>
-						<div className='feedback-info'>
-							<div className='feebback-img'>
-								<img src={client3} alt='profile' />
-							</div>
-							<div className='feedback-profileInfo'>
-								<h4>Iva Boyd </h4>
-								<span> Founder & CEO, Muddle </span>
-							</div>
-						</div>
-					</div>
-				</div>
+				</section>
 			</section>
 		</div>
 	);

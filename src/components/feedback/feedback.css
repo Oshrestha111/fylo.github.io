@@ -1,5 +1,7 @@
-.section-feedback {
+.feedback {
 	background-color: #181e2a;
+}
+.section-feedback {
 	padding: 0 120px 50px;
 }
 .section-feedback img {
@@ -51,4 +53,25 @@
 	color: #a6afc4;
 	font-size: 12px;
 	font-weight: 600;
+}
+/*--------- Access -----------*/
+.access {
+	background-color: #1c2431;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container-access {
+	display: flex;
+	max-width: 900px;
+	justify-content: center;
+	align-content: center;
+	display: block;
+}
+.desc-access {
+	color: #feffff;
+}
+.desc-access p {
+	color: #a7b0c1;
 }
